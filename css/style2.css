@@ -1,0 +1,32 @@
+*{
+    background-image: url(../image/ichgo.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size:contain ;
+
+}
+body{
+    background-color: rgba(0, 149, 255, 0.85);
+    margin: 20px 40px; 
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+main{
+     background: orangered;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+     background: white; 
+    width: 24.78%;
+    margin: 2%;
+    text-align: center;
+    border: 1px solid #222;
+    padding: 2%;
+}
+article img{
+    width: 46.78%;
+}
