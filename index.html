@@ -1,61 +1,68 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="e-commerce" content="e-commerce">
-        <meta charset="utf-8">
-        <title>4ballers</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header>
-            <a href="index.html">
-                <img src="image/logo.png">
-            </a>
-            <a href="html/compte.html">
-                <img src="image/user-1913190-1619524-removebg-preview.png">
-            </a>
-            <a href="html/panier.html">
-                <img src="image/Design_sans_titre-removebg-preview.png">
-            </a>
-        </header>
-        <nav>
-            <a href="html/nouveauté.html">nouveauté</a>
-            <a href="html/chaussure.html">chaussures</a>
-            <a href="html/vêtements.html">vêtements</a>
-            <a href="html/accesoire.html">accesoire</a>
-            <form action="recherche.php" method="get">
-                <input type="search" name="recherche" id="recherche" maxlength="200" placeholder="Recherche ...">
-            </form>
-        </nav>
-        <main>
-            <img src="image/342-nike-ja-1red-stardust.webp">
-        </main>
-        <section>
-            <article>
-              <img src="images/image.svg" alt="demo">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati natus odio vitae a sapiente quaerat maxime minus illo unde. Nobis molestiae quasi quia reiciendis doloribus deserunt neque omnis velit.</p>
-            </article>
-            <article>
-              <img src="images/image.svg" alt="demo">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati natus odio vitae a sapiente quaerat maxime minus illo unde. Nobis molestiae quasi quia reiciendis doloribus deserunt neque omnis velit.</p>
-            </article>
-            <article>
-              <img src="images/image.svg" alt="demo">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati natus odio vitae a sapiente quaerat maxime minus illo unde. Nobis molestiae quasi quia reiciendis doloribus deserunt neque omnis velit.</p>
-            </article>
-            <article>
-              <img src="images/image.svg" alt="demo">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati natus odio vitae a sapiente quaerat maxime minus illo unde. Nobis molestiae quasi quia reiciendis doloribus deserunt neque omnis velit.</p>
-            </article>
-            <article>
-              <img src="images/image.svg" alt="demo">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati natus odio vitae a sapiente quaerat maxime minus illo unde. Nobis molestiae quasi quia reiciendis doloribus deserunt neque omnis velit.</p>
-            </article>
-            <article>
-              <img src="images/image.svg" alt="demo">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati natus odio vitae a sapiente quaerat maxime minus illo unde. Nobis molestiae quasi quia reiciendis doloribus deserunt neque omnis velit.</p>
-            </article>
-          </section>
-          <footer>&copy; copyright</footer>
-    </body>
+<head>
+    <meta name="e-commerce" content="e-commerce">
+    <meta charset="utf-8">
+    <title>4ballers</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.js">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="image/logo.png">
+        </a>
+        <a href="html/compte.html">
+            <img src="image/user-1913190-1619524-removebg-preview.png">
+        </a>
+        <a href="html/panier.html">
+            <img src="image/Design_sans_titre-removebg-preview.png">
+        </a>
+    </header>
+    <nav>
+        <a href="#" onclick="afficherPopup('Vêtements')">Vêtements</a>
+        <a href="#" onclick="afficherPopup('Chaussures')">Chaussures</a>
+        <a href="#" onclick="afficherPopup('Nouveauté')">Nouveauté</a>
+        <a href="html/accesoires.html">Accessoire</a>
+        <form action="recherche.php" method="get">
+            <input type="search" name="recherche" id="recherche" maxlength="200" placeholder="Recherche ...">
+        </form>
+    </nav>
+    <main>
+        <img src="image/342-nike-ja-1red-stardust.webp">
+    </main>
+    <section>
+        <article>
+            <img src="images/image.svg" alt="demo">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati natus odio vitae a sapiente quaerat maxime minus illo unde. Nobis molestiae quasi quia reiciendis doloribus deserunt neque omnis velit.</p>
+        </article>
+        <article>
+            <img src="images/image.svg" alt="demo">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati natus odio vitae a sapiente quaerat maxime minus illo unde. Nobis molestiae quasi quia reiciendis doloribus deserunt neque omnis velit.</p>
+        </article>
+        <article>
+            <img src="images/image.svg" alt="demo">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati natus odio vitae a sapiente quaerat maxime minus illo unde. Nobis molestiae quasi quia reiciendis doloribus deserunt neque omnis velit.</p>
+        </article>
+        <article>
+            <img src="images/image.svg" alt="demo">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati natus odio vitae a sapiente quaerat maxime minus illo unde. Nobis molestiae quasi quia reiciendis doloribus deserunt neque omnis velit.</p>
+        </article>
+        <article>
+            <img src="images/image.svg" alt="demo">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati natus odio vitae a sapiente quaerat maxime minus illo unde. Nobis molestiae quasi quia reiciendis doloribus deserunt neque omnis velit.</p>
+        </article>
+        <article>
+            <img src="images/image.svg" alt="demo">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa obcaecati natus odio vitae a sapiente quaerat maxime minus illo unde. Nobis molestiae quasi quia reiciendis doloribus deserunt neque omnis velit.</p>
+        </article>
+    </section>
+    <footer>&copy; copyright</footer>
+
+    <script>
+        function afficherPopup(categorie) {
+            alert("Vous avez cliqué sur la catégorie : " + categorie);
+        }
+    </script>
+</body>
 </html>
