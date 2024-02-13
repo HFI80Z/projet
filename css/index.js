@@ -1,9 +1,4 @@
-document.getElementById('bouton').addEventListener('click', function() {
-    document.getElementById('popup').style.display = 'block';
-    document.getElementById('overlay').style.display = 'block';
-  });
-  
-  document.getElementById('overlay').addEventListener('click', function() {
-    document.getElementById('popup').style.display = 'none';
-    document.getElementById('overlay').style.display = 'none';
-  });
+function ouvrirPanier() {
+  var panier = document.getElementById("panier");
+  panier.classList.remove("hidden");
+}
